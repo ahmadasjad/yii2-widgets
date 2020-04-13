@@ -1,0 +1,22 @@
+{
+    "name": "ahmadasjad/yii2-widgets",
+    "description": "An extension for input with facility to increase and decrease the value with the button",
+    "type": "library, extension, widget, yii2, yii2-widget, yii2-extension, plugin, input, plusMinusInput, minusPlusInput",
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-bootstrap": "~2.0",
+        "yiisoft/yii2-bootstrap4": "~2.0"
+    },
+    "authors": [
+        {
+            "name": "Ahmad Asjad",
+            "email": "ahmadcimage@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ahmadasjad\\yii2Widgets\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
