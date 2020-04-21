@@ -23,7 +23,7 @@ class PlusMinusInput extends InputWidget
     {
         parent::init();
         $this->options = ArrayHelper::merge(['class' => 'form-control'], $this->options);
-        $id = $this->getId();
+        $id = $this->options['id'];
         $default_plugin_options = [
             'val_min' => 0,
             'val_max' => 1000,
@@ -76,7 +76,7 @@ class PlusMinusInput extends InputWidget
 
     public function registerClientScript()
     {
-        $id = $this->getId();
+        $id = $this->options['id'];
         $minus_id = $this->plugin_options['minus']['id'];
         $plus_id = $this->plugin_options['plus']['id'];
         $parser = $this->plugin_options['parser'];
