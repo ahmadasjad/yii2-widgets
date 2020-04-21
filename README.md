@@ -1,5 +1,6 @@
 # yii2-widgets
 
+![Plus-Minus-Input](img/preview-plus-minus-input.png)
 ###### Installation
 
 ```
